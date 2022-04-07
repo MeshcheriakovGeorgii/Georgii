@@ -1,0 +1,13 @@
+for (i = 0; glass[i] != '\0'; i++)
+    {
+        k = 0;
+        for (j = 0; str[j] != '\0'; j++)
+        {
+            if (str[j] == glass[i])
+            {
+                k = 1;
+                break;
+            }
+        }
+        if (k != 1) printf("%c", glass[i]);
+    }
